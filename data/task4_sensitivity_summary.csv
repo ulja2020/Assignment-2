@@ -1,0 +1,7 @@
+split,model,n_valid_seeds,mean_sensitivity,std_sensitivity,note
+A_biased,Naive Bayes,0,,,N/A: test set has no y=1 observations.
+A_biased,Decision Tree,0,,,N/A: test set has no y=1 observations.
+B_random,Naive Bayes,5,0.9778141765180649,0.021334636562523688,
+B_random,Decision Tree,5,0.9516835494038312,0.02264727527717587,
+C_stratified,Naive Bayes,5,0.9866666666666667,0.01394433377556793,
+C_stratified,Decision Tree,5,0.9766666666666666,0.014907119849998589,
