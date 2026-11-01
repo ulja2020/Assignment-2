@@ -357,9 +357,7 @@ Table 3 lists the class-specific factors for the selected plant. The main
 columns for checking the handwritten steps are `prior`, `gaussian_density_f1`,
 `categorical_likelihood` and `unnormalized_score`. The score is the product of
 the prior and the two likelihoods. Adding the two class scores gives the
-normalization denominator; dividing the class-1 score by that sum gives the
-unhealthy posterior to compare with the classifier result reported above.
-The final posteriors are not a column in this CSV and are shown in the Visual Studio terminal only.
+normalization denominator; dividing the class-1 score by that sum gives the unhealthy posterior to compare with the classifier result reported above (0.999515 and 0.000485). This pair of results are not present in the output CSV.
 
 `f1_mean` and `f1_sample_sd` specify the fitted Gaussian, while `category` and
 `category_count` identify the treatment and its class-specific training count.
