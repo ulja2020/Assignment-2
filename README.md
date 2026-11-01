@@ -351,7 +351,7 @@ For the selected test point (`f1 = 23.019741`, `cat = No treatment`), the model 
 - `P(y = 0 | x) = 0.999515`
 - `P(y = 1 | x) = 0.000485`
 
-The code output is intended as a numerical check for the hand calculation; the derivation and explanation of each factor are provided separately.
+The code output is intended as a numerical check for the hand calculation.
 
 Table 3 lists the class-specific factors for the selected plant. The main
 columns for checking the handwritten steps are `prior`, `gaussian_density_f1`,
